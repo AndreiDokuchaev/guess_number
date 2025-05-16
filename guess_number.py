@@ -11,6 +11,6 @@ while True:
         print('Ваше число меньше загаданного')
     elif random_inp > number_rand:
         print('Ваше число больше загаданного')
-    else:
+    elif random_inp == number_rand:
         break
 print('Win')
